@@ -9,8 +9,8 @@ import java.util.Set;
 
 @Entity
 @Table(name = "user")
-public class User {
-
+public class User { // Clasa User este echivalentul cu tabela user din baza de date .Este o entitate in contextul de persistenta al datelor. Este un bean in contextul de Spring
+                    // Un bean  este un obiect care este instantanat, asamblat și gestionat de catre contextul de Spring ( Spring IoC)
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "iduser")

@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 
-@Repository
+@Repository // @Repository este o adnotare de tip Stereotype( alaturi de @Component, @Service si @Controller) si indica faptul ca interfata(clasa) decorata este un repository .Un repository este un mecanism de încapsulare , extragere și de  căutare a datelor, sub forma unor  colecții de obiecte
 public interface RoleRepository extends JpaRepository<Role, Integer> {
 
     @Override
